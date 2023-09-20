@@ -6,5 +6,7 @@
  * 
  * 2. controlled element: use individual state for each input field
  * 
+ * 3. controlled element: one object in a state holding all the input fields value
  * 
+ * 4. uncontrolled element: useRef() hook to create a reference to the element and access value by using like: nameRef.current.value
  */
