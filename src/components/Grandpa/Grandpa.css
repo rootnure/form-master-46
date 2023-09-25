@@ -1,0 +1,12 @@
+.grandpa, .parent, .child, .grand-child, .cousin, .special, .friend {
+    border: 3px solid aquamarine;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.flex-spbt-gap-10 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
