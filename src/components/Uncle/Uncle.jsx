@@ -1,5 +1,5 @@
 import Cousin from "../Cousin/Cousin";
-
+import PropTypes from 'prop-types';
 
 const Uncle = ({asset}) => {
     return (
@@ -12,5 +12,9 @@ const Uncle = ({asset}) => {
         </div>
     );
 };
+
+Uncle.propTypes = {
+    asset: PropTypes.string
+}
 
 export default Uncle;

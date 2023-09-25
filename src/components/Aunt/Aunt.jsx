@@ -5,7 +5,7 @@ import { MoneyContext } from "../Grandpa/Grandpa";
 
 const Aunt = () => {
 
-    const [money, setMoney] = useContext(MoneyContext);
+    const [money, setMoney] = useContext(MoneyContext); // 3. useContext() to receive value from context using ContextAPI
 
     return (
         <div className="child">

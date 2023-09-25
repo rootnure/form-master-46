@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { MoneyContext } from '../Grandpa/Grandpa';
 
 const Cousin = ({name, asset}) => {
-    const [money] = useContext(MoneyContext);
+    const [money] = useContext(MoneyContext); // 3. useContext() to receive value from context using ContextAPI
     return (
         <div className='cousin'>
             <h2>Cousin</h2>
@@ -17,7 +17,8 @@ const Cousin = ({name, asset}) => {
 };
 
 Cousin.propTypes = {
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
+    asset: PropTypes.string
 }
 
 export default Cousin;

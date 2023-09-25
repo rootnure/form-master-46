@@ -1,4 +1,5 @@
 import Special from "../Special/Special";
+import PropTypes from 'prop-types';
 
 
 const MySelf = ({asset}) => {
@@ -11,5 +12,9 @@ const MySelf = ({asset}) => {
         </div>
     );
 };
+
+MySelf.propTypes = {
+    asset: PropTypes.string
+}
 
 export default MySelf;

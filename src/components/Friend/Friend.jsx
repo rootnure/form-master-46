@@ -4,7 +4,7 @@ import { AssetContext, MoneyContext } from "../Grandpa/Grandpa";
 const Friend = () => {
 
     const gift = useContext(AssetContext);
-    const [money] = useContext(MoneyContext);
+    const [money] = useContext(MoneyContext); // 3. useContext() to receive value from context using ContextAPI
 
     return (
         <div className="friend">
